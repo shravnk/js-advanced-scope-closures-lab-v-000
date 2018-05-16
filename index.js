@@ -6,3 +6,9 @@ function produceDrivingRange(range) {
     else {return `within range by ${range - dist}`}
   }
 }
+
+function produceTipCalculator(tip) {
+  return function(fare) {
+    return tip*fare
+  }
+}
